@@ -298,6 +298,7 @@ jobs:
           # ==========================================
           # 搜索服务
           # ==========================================
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           ANSPIRE_API_KEYS: ${{ secrets.ANSPIRE_API_KEYS }} 
           ANSPIRE_LLM_MODEL: ${{ vars.ANSPIRE_LLM_MODEL || secrets.ANSPIRE_LLM_MODEL }}
           ANSPIRE_LLM_BASE_URL: ${{ vars.ANSPIRE_LLM_BASE_URL || secrets.ANSPIRE_LLM_BASE_URL }}
